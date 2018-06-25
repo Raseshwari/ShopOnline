@@ -1,0 +1,24 @@
+﻿@using ShopOnline.Models
+@model LipColor
+
+
+@{ 
+    ViewBag.Title = "Add LipColor";
+}
+<form method = "post">
+    <div>
+        <label asp-for="Cprodname"></label>
+        <input asp-for="Cprodname" />
+        <span asp-validation-for="Cprodname"></span>
+    </div>
+
+    <div>
+        <label asp-for="CShade"></label>
+        <select asp-for="CShade" asp-items="@Html.GetEnumSelectList<CShadeColor>()"></select>
+        <span asp-validation-for="CShade"></span>
+    </div>
+
+    <div>
+        <input type ="submit" name="Save" value="Save" />
+    </div>
+</form>

@@ -1,0 +1,18 @@
+﻿@model ShopOnline.Models.Books
+
+@{
+    ViewBag.Title = "Books Detail";
+}
+
+<h1>@Model.BookName</h1>
+
+<div>
+    Id : @Model.BookId
+</div>
+
+<div>
+    Type : @Model.Type
+</div>
+
+<a asp-action="Details" asp-controller="Books">Books Home</a>
+

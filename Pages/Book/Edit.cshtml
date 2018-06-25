@@ -1,0 +1,32 @@
+﻿@page "{id}"
+@using ShopOnline.Pages.Book
+
+@model EditModel
+
+<h1>Edit @Model.Books.BookName</h1>
+
+<form method="post">
+
+    <input type="hidden" asp-for="Books.BookId" />
+
+    <div>
+        <label asp-for="Books.BookName"></label>
+        <input asp-for="Books.BookName" />
+        <span asp-validation-for="Books.BookName"></span>
+    </div>
+
+    <div>
+        <label asp-for="Books.Type"></label>
+        <select asp-for="Books.Type" asp-items="@Html.GetEnumSelectList<BookType>()"></select>
+        <span asp-validation-for="Books.Type"></span>
+    </div>
+
+    <div>
+        <label asp-for="Books.BookAuthor"></label>
+        <input asp-for="Books.BookAuthor" />
+        <span asp-validation-for="Books.BookAuthor"></span>
+    </div>
+
+    <input type="submit" name="save" value="Save" />
+
+</form>

@@ -1,0 +1,26 @@
+﻿@page "{id}"
+@using ShopOnline.Pages.LipColors
+
+@model EditModel
+
+<h1>Edit @Model.LipColor.Cprodname</h1>
+
+<form method="post">
+
+    <input type="hidden" asp-for="LipColor.Cprodid" />
+    <div>
+        <label asp-for="LipColor.Cprodname"></label>
+        <input asp-for="LipColor.Cprodname" />
+        <span asp-validation-for="LipColor.Cprodname"></span>
+    </div>
+
+    <div>
+        <label asp-for="LipColor.CShade"></label>
+        <select asp-for="LipColor.CShade" asp-items="@Html.GetEnumSelectList<CShadeColor>()"></select>
+        <span asp-validation-for="LipColor.CShade"></span>
+    </div>
+
+    <div>
+        <input type="submit" name="Save" value="Save" />
+    </div>
+</form>

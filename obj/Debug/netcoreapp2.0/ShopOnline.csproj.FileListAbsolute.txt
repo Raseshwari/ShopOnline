@@ -1,0 +1,11 @@
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\bin\Debug\netcoreapp2.0\ShopOnline.deps.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\bin\Debug\netcoreapp2.0\ShopOnline.runtimeconfig.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\bin\Debug\netcoreapp2.0\ShopOnline.runtimeconfig.dev.json
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\bin\Debug\netcoreapp2.0\ShopOnline.dll
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\bin\Debug\netcoreapp2.0\ShopOnline.pdb
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.csproj.CoreCompileInputs.cache
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.AssemblyInfoInputs.cache
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.AssemblyInfo.cs
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.dll
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.pdb
+C:\Users\ROSS\Documents\Study\C#\ASPNet_Demo\ShopOnline\ShopOnline\obj\Debug\netcoreapp2.0\ShopOnline.csprojAssemblyReference.cache

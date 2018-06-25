@@ -1,0 +1,16 @@
+﻿@model ShopOnline.Models.LipColor
+
+@{ 
+    ViewBag.Title = "LipColor Info";
+}
+
+
+<h1>@Model.Cprodname</h1>
+<div>
+    Id: @Model.Cprodid
+</div>
+
+<div>
+    Shade: @Model.CShade
+</div>
+<a asp-action="Details" asp-controller="Lip">LipColor Home</a>

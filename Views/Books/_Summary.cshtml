@@ -1,0 +1,12 @@
+﻿@model Books
+
+<section>
+    <h3>@Model.BookName</h3>
+    <div>
+        Author : @Model.BookAuthor
+    </div>
+    <div>
+        <a asp-action="Info" asp-route-id="@Model.BookId">More</a>
+        <a asp-page="/Book/Edit" asp-route-id="@Model.BookId">Edit</a>
+    </div>
+</section>

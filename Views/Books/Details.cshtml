@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ShopOnline.Models.Books>
+
+@foreach (var book in Model)
+{
+    @Html.Partial("_Summary", book)
+}
+
+<!--<body>
+    <table>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.BookId</td>
+                <td>@book.BookName</td>
+                <td>@book.BookAuthor</td>
+                <td>
+                    <a asp-action="Info" asp-route-id="@book.BookId">More</a>
+                    <a asp-page="/Book/Edit" asp-route-id="@book.BookId">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>
+</body>-->
+<div>
+    <a asp-action="Create">Add Book</a>
+    <a asp-action="Index" asp-controller="Home">Home</a>
+</div>

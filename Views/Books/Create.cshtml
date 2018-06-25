@@ -1,0 +1,28 @@
+﻿@using ShopOnline.Models
+@model Books
+
+<h1>Create</h1>
+
+<form method="post">
+
+    <div>
+        <label asp-for="BookName"></label>
+        <input asp-for="BookName" />
+        <span asp-validation-for="BookName"></span>
+    </div>
+
+    <div>
+        <label asp-for="Type"></label>
+        <select asp-for="Type" asp-items="@Html.GetEnumSelectList<BookType>()"></select>
+        <span asp-validation-for="Type"></span>
+    </div>
+
+    <div>
+        <label asp-for="BookAuthor"></label>
+        <input asp-for="BookAuthor" />
+        <span asp-validation-for="BookAuthor"></span>
+    </div>
+
+    <input type="submit" name="save" value="Save" />
+
+</form>

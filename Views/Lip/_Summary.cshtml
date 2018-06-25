@@ -1,0 +1,13 @@
+﻿@model LipColor
+
+<section>
+    <h3>@Model.Cprodname</h3>
+    <div>
+        Shade : @Model.CShade
+    </div>
+    <div>
+        <a asp-action="Info" asp-route-id="@Model.Cprodid">More</a>
+        <a asp-page="/LipColors/Edit" asp-route-id="@Model.Cprodid">Edit</a>
+    </div>
+</section>
+
